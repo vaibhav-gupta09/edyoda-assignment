@@ -4,6 +4,7 @@ import './Sidebar.css';
 import HomeIcon from "@mui/icons-material/Home";
 import ViewModuleIcon from "@mui/icons-material/ViewModule";
 import InterpreterModeIcon from "@mui/icons-material/InterpreterMode";
+import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
 const Sidebar = () => {
   // const[activeLink, setActiveLink] = useState('home');
   // const handleClick = (link)=>{
@@ -39,9 +40,7 @@ const Sidebar = () => {
       >
         <div
           className={`icon-container ${
-            location.pathname.startsWith("/module")
-              ? "sidebar-active"
-              : ""
+            location.pathname.startsWith("/module") ? "sidebar-active" : ""
           }`}
         >
           <ViewModuleIcon className="my-icon" fontSize="large" />
@@ -61,7 +60,7 @@ const Sidebar = () => {
             location.pathname === "/instructor" ? "sidebar-active" : ""
           }`}
         >
-          <InterpreterModeIcon className="my-icon" />
+          <RecordVoiceOverIcon className="my-icon" fontSize="large" />
           <br />
           INSTRUCTOR
         </div>

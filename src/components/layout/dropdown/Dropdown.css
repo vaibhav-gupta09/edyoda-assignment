@@ -1,5 +1,8 @@
 .dropdown-container{
   background-color: #15294B;
+  padding-left: 5rem;
+  position: absolute;
+  width: 100%;
 }
 .dropdown-container p{
   color: white;
@@ -10,14 +13,20 @@
 .dropdown-container-options p{
   justify-content: center;
   color: white;
-  margin: 1rem 2rem 2rem 0;
+  margin: 1rem 2rem 2rem 0.5rem;
   padding: 5px;
   text-decoration: none;
   cursor: pointer;
 }
 
-.dropdown-container-options p:hover{
+/* .dropdown-container-options p:hover{
   background-color: white;
   color: #15294B;
+  border-radius: 1rem;
+} */
+
+.program-active{
+  background-color: white;
+  color: #15294B !important;
   border-radius: 1rem;
 }
