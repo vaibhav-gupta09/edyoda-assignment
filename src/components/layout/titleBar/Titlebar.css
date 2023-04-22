@@ -1,0 +1,23 @@
+.titlebar-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem;
+ border: 1px solid black;
+}
+.left-container{
+  flex: 1;
+  margin-left: 4rem;
+}
+.right-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-right: 4rem;
+}
+.main-heading{
+  color: blue
+}
+#right-containe-h3{
+  padding-right: 1rem;
+}

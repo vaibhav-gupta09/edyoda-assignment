@@ -1,0 +1,24 @@
+.sidebar-container{
+  background-color: darkblue;
+    color: white;
+}
+
+.icon-container{
+  text-align: center;
+  padding: 1rem;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* a:hover{
+  background-color: grey;
+} */
+
+.icon-container:hover {
+  background-color: lightgray;
+  color: darkblue;
+}

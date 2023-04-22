@@ -1,0 +1,43 @@
+.home-container{
+  background-color: bisque;
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+  height: 84%;
+  padding: 3rem;
+}
+
+.upcoming-certification-container{
+  background-color: white;
+  border: 2px solid lightblue;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  border-radius: 5px;
+}
+
+.analysis-container{
+  display: flex;
+}
+
+.analysis-content{
+  margin: 0.8rem;
+}
+
+#analysis-img{
+  width: 65px;
+  height: auto;
+  margin: 1rem;
+}
+
+#analysis-certificate-p{
+  background-color: lightgray;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+#analysis-status-p{
+  background-color: lightblue;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 6px;
+}
