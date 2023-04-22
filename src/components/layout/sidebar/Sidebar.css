@@ -18,7 +18,12 @@ a{
   background-color: grey;
 } */
 
-.icon-container:hover {
+/* .icon-container:hover {
+  background-color: #E0E6F2;
+  color: #15294B;
+} */
+
+.sidebar-active{
   background-color: #E0E6F2;
   color: #15294B;
 }

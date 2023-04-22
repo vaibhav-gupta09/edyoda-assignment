@@ -1,0 +1,23 @@
+.dropdown-container{
+  background-color: #15294B;
+}
+.dropdown-container p{
+  color: white;
+}
+.dropdown-container-options{
+  display: flex;
+}
+.dropdown-container-options p{
+  justify-content: center;
+  color: white;
+  margin: 1rem 2rem 2rem 0;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-container-options p:hover{
+  background-color: white;
+  color: #15294B;
+  border-radius: 1rem;
+}
