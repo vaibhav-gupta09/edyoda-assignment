@@ -1,9 +1,27 @@
-.quiz-container {
+.quiz-wrapper {
   display: flex;
   background-color: #F2F6FF;
   height: 100%;
 }
 
-.quiz-content{
-  
+.quiz-header{
+  padding: 3rem;
+}
+
+#quiz-details-h4 {
+  padding-left: 3rem;
+}
+
+.quiz-container{
+  width: 100%;
+}
+
+.quiz-details-container {
+  background-color: white;
+  border: 1px solid #1C97FF;
+  border-radius: 5px;
+  justify-content: space-between;
+  display: flex;
+  margin: 1rem 3rem 3rem 3rem;
+  padding: 2rem;
 }

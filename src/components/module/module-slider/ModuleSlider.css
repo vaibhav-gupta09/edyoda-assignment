@@ -17,10 +17,10 @@
 
 .module-slider-div:hover{
   background-color: #CBD3E1;
-  border-radius: 1rem;
+  border-radius: 5px;
 }
 
 .active{
   background-color: #CBD3E1;
-    border-radius: 1rem;
+    border-radius: 5px;
 }
