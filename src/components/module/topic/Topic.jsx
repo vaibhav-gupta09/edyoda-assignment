@@ -1,14 +1,18 @@
 import React from 'react'
 import ModuleSlider from '../module-slider/ModuleSlider'
+import TopicHeader from './TopicHeader'
 import './Topic.css'
+import TopicDetails from './TopicDetails'
+import SessionPlan from './SessionPlan'
 
 const Topic = () => {
   return (
-    <div className="topic-container">
+    <div className="topic-wrapper">
       <ModuleSlider />
-      <div>
-        
-        Topic Content
+      <div className="topic-container">
+        <TopicHeader />
+        <TopicDetails/>
+        <SessionPlan/>
       </div>
     </div>
   );
