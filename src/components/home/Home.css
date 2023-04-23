@@ -4,7 +4,7 @@
   
 }
 .home-container{
-  padding: 3rem;
+  padding: 1.5rem 3rem;
 }
 
 .upcoming-certification-container{
@@ -84,4 +84,69 @@
   border-radius: 2rem;
   font-size: large;
   cursor: pointer;
+}
+.module-detail-container{
+  display: flex;
+  background-color: white;
+  margin-top: 10px;
+  border: 2px solid #CCEEFF;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.data-wrangling-wrapper{
+}
+.data-wrangling-container{
+  display: flex;
+  margin-bottom: 1rem;
+  
+}
+.data-wrangling-container img{
+  height: 55px;
+  width: 55px;
+  padding-right: 10px;
+}
+.instructor-container{
+  display: flex;
+}
+
+.module-detail{
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+
+.today-plan-container{
+  margin-left: 5rem;
+}
+
+.live-session-btn {
+  background-color: #EFEFEF;
+  color: #000000;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.continue-learning-container{
+  display: flex;
+}
+.progress-overview-container{
+  width: 20vw;
+  background-color: white;
+    margin-top: 10px;
+    margin-left: 3rem;
+    border: 2px solid #CCEEFF;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+
+  }
+  .attendance-container, .grade-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+   border: 1px solid #008BFF;
+   border-radius: 1rem;
+   margin: 0.8rem 0rem;
+   padding: 0.2rem 1rem;
 }
